@@ -1,0 +1,130 @@
+@-webkit-keyframes animation0 {
+    from { -webkit-transform: translateX(200px) translateY(-200px) rotateX(360deg) rotateY(360deg) rotate(360deg); opacity: 0; }
+    to   { -webkit-transform: none; opacity: 1; }
+}
+
+@-webkit-keyframes animation1 {
+    from { -webkit-transform: rotate(0) translateY(100px) rotate(2000deg) scale(0.1); opacity: 0; }
+    to   { -webkit-transform: none; opacity: 1; }
+}
+
+@-webkit-keyframes animation2 {
+    from { -webkit-transform: translateX(1000px) rotateX(180deg) rotateY(360deg) scale(0.1); opacity: 0; }
+    to   { -webkit-transform: none; opacity: 1; }
+}
+
+@-webkit-keyframes animation2 {
+    from { -webkit-transform: translateX(1000px) rotateX(180deg) rotateY(360deg) scale(0.1); opacity: 0; }
+    to   { -webkit-transform: none; opacity: 1; }
+}
+
+@-webkit-keyframes animation3 {
+    from { -webkit-transform: translateY(100px); opacity: 0; }
+    to   { -webkit-transform: none; opacity: 1; }
+}
+
+@-webkit-keyframes animation4 {
+    0%   { -webkit-transform: translateY(-100px)}
+    20%  { -webkit-transform: translateY(80px)}
+    40%  { -webkit-transform: translateY(-60px)}
+    60%  { -webkit-transform: translateY(30px)}
+    80%  { -webkit-transform: translateY(-10px)}
+    100% { -webkit-transform: translateY(0)}
+}
+
+@-webkit-keyframes animation5 {
+    0%   { color: #000000; opacity: 0 }
+    20%  { color: red; }
+    40%  { color: green; }
+    60%  { color: yellow; }
+    80%  { color: blue; }
+    100% { color: #000000; }
+}
+
+
+@-moz-keyframes animation0 {
+    from { -moz-transform: translateX(200px) translateY(-200px) rotateX(360deg) rotateY(360deg) rotate(360deg); opacity: 0; }
+    to   { -moz-transform: none; opacity: 1; }
+}
+
+@-moz-keyframes animation1 {
+    from { -moz-transform: rotate(0) translateY(100px) rotate(2000deg) scale(0.1); opacity: 0; }
+    to   { -moz-transform: none; opacity: 1; }
+}
+
+@-moz-keyframes animation2 {
+    from { -moz-transform: translateX(1000px) rotateX(180deg) rotateY(360deg) scale(0.1); opacity: 0; }
+    to   { -moz-transform: none; opacity: 1; }
+}
+
+@-moz-keyframes animation2 {
+    from { -moz-transform: translateX(1000px) rotateX(180deg) rotateY(360deg) scale(0.1); opacity: 0; }
+    to   { -moz-transform: none; opacity: 1; }
+}
+
+@-moz-keyframes animation3 {
+    from { -moz-transform: translateY(100px); opacity: 0; }
+    to   { -moz-transform: none; opacity: 1; }
+}
+
+@-moz-keyframes animation4 {
+    0%   { -moz-transform: translateY(-100px)}
+    20%  { -moz-transform: translateY(80px)}
+    40%  { -moz-transform: translateY(-60px)}
+    60%  { -moz-transform: translateY(30px)}
+    80%  { -moz-transform: translateY(-10px)}
+    100% { -moz-transform: translateY(0)}
+}
+
+@-moz-keyframes animation5 {
+    0%   { color: #000000; opacity: 0 }
+    20%  { color: red; }
+    40%  { color: green; }
+    60%  { color: yellow; }
+    80%  { color: blue; }
+    100% { color: #000000; }
+}
+
+
+@keyframes animation0 {
+    from { transform: translateX(200px) translateY(-200px) rotateX(360deg) rotateY(360deg) rotate(360deg); opacity: 0; }
+    to   { transform: none; opacity: 1; }
+}
+
+@keyframes animation1 {
+    from { transform: rotate(0) translateY(100px) rotate(2000deg) scale(0.1); opacity: 0; }
+    to   { transform: none; opacity: 1; }
+}
+
+@keyframes animation2 {
+    from { transform: translateX(1000px) rotateX(180deg) rotateY(360deg) scale(0.1); opacity: 0; }
+    to   { transform: none; opacity: 1; }
+}
+
+@keyframes animation2 {
+    from { transform: translateX(1000px) rotateX(180deg) rotateY(360deg) scale(0.1); opacity: 0; }
+    to   { transform: none; opacity: 1; }
+}
+
+@keyframes animation3 {
+    from { transform: translateY(100px); opacity: 0; }
+    to   { transform: none; opacity: 1; }
+}
+
+@keyframes animation4 {
+    0%   { transform: translateY(-100px)}
+    20%  { transform: translateY(80px)}
+    40%  { transform: translateY(-60px)}
+    60%  { transform: translateY(30px)}
+    80%  { transform: translateY(-10px)}
+    100% { transform: translateY(0)}
+}
+
+@keyframes animation5 {
+    0%   { color: #000000; opacity: 0 }
+    20%  { color: red; }
+    40%  { color: green; }
+    60%  { color: yellow; }
+    80%  { color: blue; }
+    100% { color: #000000; }
+}
