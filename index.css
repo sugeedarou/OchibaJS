@@ -1,0 +1,138 @@
+html, body, * {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    background-color: white;   
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3em;   
+}
+
+p {
+    font-size: 2em;
+}
+
+header, footer {
+    background-color: #00cc00;
+    color: #fefffe;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.noAnimation {
+    -moz-animation-name: none;
+	-webkit-animation-name: none;
+    animation-name: none;
+}
+
+.tiny_text {
+    font-size: 1em;
+}
+
+#wrap {
+    margin: 30px;   
+}
+
+#wrap section {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+#examples {
+    list-style-type: none;
+}
+
+#examples li {
+    padding: 30px 0;   
+}
+
+#examples .play {
+    padding: 20px;
+    background-color: #00cc00;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: .2s ease background-color;
+    cursor: pointer;
+}
+
+#examples .play:hover {
+    background-color: #017c01;
+}
+
+#examples .play:focus {
+    outline: none;
+}
+
+#examples .animated li {
+    font-size: 2em;
+}
+
+#example0 .animated span, #title span, .animated img, .animated li {
+    opacity: 0;
+}
+
+#example1 img {
+    width: 100px;
+    height: 100px;
+}
+
+#example2 .animated {
+    list-style-type: none;
+}
+
+#example2 .animated li {
+    padding: 0;
+}
+
+#usage ol li {
+    font-size: 1.5em;   
+}
+
+#usage ol span {
+    font-weight: bold;
+}
+
+#bugs ul {
+    list-style-type: none;   
+}
+
+#bugs h2 {
+    font-size: 1.5em;   
+}
+
+#bugs p {
+    font-size: 1em;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+}
+
+footer a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
