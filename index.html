@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Leaf JS</title>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="animations.css" />
+        <script src="leaf.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 id="title"><span class="leaf" style="-webkit-animation: animation0 1s ease 0s forwards; -webkit-animation-play-state: initial;">L</span><span class="leaf" style="-webkit-animation: animation0 1s ease 0.333333333333333s forwards; -webkit-animation-play-state: initial;">e</span><span class="leaf" style="-webkit-animation: animation0 1s ease 0.166666666666667s forwards; -webkit-animation-play-state: initial;">a</span><span class="leaf" style="-webkit-animation: animation0 1s ease 0.5s forwards; -webkit-animation-play-state: initial;">f</span><span style="">&nbsp;</span><span class="leaf" style="-webkit-animation: animation0 1s ease 0.666666666666667s forwards; -webkit-animation-play-state: initial;">J</span><span class="leaf" style="-webkit-animation: animation0 1s ease 0.833333333333333s forwards; -webkit-animation-play-state: initial;">S</span></h1>
+        </header>
+        <div id="wrap">
+            <section id="what">
+                <h1>What is Leaf JS?</h1>
+                <p>Leaf JS is a simple animation library to create stunning animations using CSS3 and Javascript.</p>
+            </section>
+            <section id="how">
+                <h1>How does it work?</h1>
+                <p>It works by triggering css animations for every element after a calculated delay.</p>
+            </section>
+            <section id="showme">
+                <h1>Show me!</h1>
+                <ul id="examples">
+                    <li id="example0">
+                        <button class="play">Play Animation</button>
+                        <p class="animated">This is an example of animated letters</p>
+                    </li>
+                    <li id="example1">
+                        <button class="play">Play Animation</button>
+                        <div class="animated" style="width: 350px; margin: 10px auto">
+                            <img src="http://lorempixel.com/100/100/abstract" />
+                            <img src="http://lorempixel.com/100/100/animals" />
+                            <img src="http://lorempixel.com/100/100/business" />
+                            <img src="http://lorempixel.com/100/100/cats" />
+                            <img src="http://lorempixel.com/100/100/city" />
+                            <img src="http://lorempixel.com/100/100/food" />
+                            <img src="http://lorempixel.com/100/100/fashion" />
+                            <img src="http://lorempixel.com/100/100/people" />
+                            <img src="http://lorempixel.com/100/100/nature" />
+                        </div>
+                        <p class="tiny_text">Placeholder images from: http://lorempixel.com/</p>
+                    </li>
+                    <li id="example2">
+                        <button class="play">Play Animation</button>
+                        <ul class="animated" style="width: 350px; margin: 10px auto">
+                            <li>I'm list item number 1</li>
+                            <li>I'm list item number 2</li>
+                            <li>I'm list item number 3</li>
+                            <li>I'm list item number 4</li>
+                            <li>I'm list item number 5</li>
+                            <li>I'm list item number 6</li>
+                            <li>I'm list item number 7</li>
+                            <li>I'm list item number 8</li>
+                        </ul>
+                    </li>
+                    <li id="example3">
+                        <button class="play">Play Animation</button>
+                        <p class="animated">Another example of animated letters</p>
+                    </li>
+                    <li id="example4">
+                        <button class="play">Play Animation</button>
+                        <p class="animated">I'm a very colorful example</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="usage">
+                <h1>Which features can I expect in later versions?</h1>
+                <p>I'm going to add a css converter to convert the animations to pure css.</p>
+            </section>
+            <section id="usage">
+                <h1>How can I create such animations?</h1>
+                <p>Just download LeafJS from <a href="#">here</a></p>
+                <h1>And now?</h1>
+                <ol>
+                    <li><span>Bind your parent element to LeafJS:</span> var leaf = new LeafJS(document.getElementById('title'));</li>
+                    <li><span>Init your elements / letters :</span> leaf.initLetters(); or leaf.init()</li>
+                    <li><span>Animate them:</span> leaf.animateLeafs(options);</li>
+                    <li><span>Options are:</span> speed, timing, delay, animation, animationType, callback</li>
+                </ol>
+            </section>
+            <section id="support">
+                <h1>It doesn't work! / I have found a bug</h1>
+                <p>Remember LeafJS isn't finished yet. If you find any bug please report it <a href="#">here</a></p>
+            </section>
+            <section id="bugs">
+                <h1>Currently known bugs:</h1>
+                <ul>
+                    <li>
+                        <h2>the animation won't restart</h2>
+                        <p>Yep that's a bug, don't know how to fix it :(</p>
+                    </li>
+                    <li>
+                        <h2>It doesn't work in Internet Explorer</h2>
+                        <p>Sorry, but I'm only adding prefixes for modern browsers</p>
+                    </li>
+                    <li>
+                        <h2>There are grammar mistakes on this site!</h2>
+                        <p>English isn't my first language so please excuse my mistakes :)</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <footer>
+            <p>Made by <a href="https://github.com/yxyx136">yxyx136</a></p>
+        </footer>
+    </body>
+</html>
